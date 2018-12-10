@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="test-manager-web:war">
+    <output-path>$PROJECT_DIR$/test-manager-web/target</output-path>
+    <root id="archive" name="test-manager-web.war">
+      <element id="artifact" artifact-name="test-manager-web:war exploded" />
+    </root>
+  </artifact>
+</component>

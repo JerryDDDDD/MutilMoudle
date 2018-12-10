@@ -1,0 +1,5 @@
+com\layman\service\impl\PictureServiceImpl.class
+com\layman\service\impl\ItemServiceImpl.class
+utils\FastDFSClient.class
+com\layman\service\impl\ItemCatServiceImpl.class
+com\layman\service\impl\TestServiceImpl.class

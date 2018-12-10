@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="test-content-service:war">
+    <output-path>$PROJECT_DIR$/test-content/test-content-service/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>test-content-service</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="test-content-service.war">
+      <element id="artifact" artifact-name="test-content-service:war exploded" />
+    </root>
+  </artifact>
+</component>

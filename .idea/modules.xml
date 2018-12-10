@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/test-common/test-common.iml" filepath="$PROJECT_DIR$/test-common/test-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-content/test-content.iml" filepath="$PROJECT_DIR$/test-content/test-content.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-content/test-content-interface/test-content-interface.iml" filepath="$PROJECT_DIR$/test-content/test-content-interface/test-content-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-content/test-content-service/test-content-service.iml" filepath="$PROJECT_DIR$/test-content/test-content-service/test-content-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-manager/test-manager.iml" filepath="$PROJECT_DIR$/test-manager/test-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-manager/test-manager-dao/test-manager-dao.iml" filepath="$PROJECT_DIR$/test-manager/test-manager-dao/test-manager-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-manager/test-manager-interface/test-manager-interface.iml" filepath="$PROJECT_DIR$/test-manager/test-manager-interface/test-manager-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-manager/test-manager-pojo/test-manager-pojo.iml" filepath="$PROJECT_DIR$/test-manager/test-manager-pojo/test-manager-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-manager/test-manager-provider/test-manager-provider.iml" filepath="$PROJECT_DIR$/test-manager/test-manager-provider/test-manager-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-parent/test-parent.iml" filepath="$PROJECT_DIR$/test-parent/test-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-protal/test-protal.iml" filepath="$PROJECT_DIR$/test-protal/test-protal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-protal-web/test-protal-web.iml" filepath="$PROJECT_DIR$/test-protal-web/test-protal-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-search/test-search.iml" filepath="$PROJECT_DIR$/test-search/test-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-search/test-search-interface/test-search-interface.iml" filepath="$PROJECT_DIR$/test-search/test-search-interface/test-search-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-search/test-search-service/test-search-service.iml" filepath="$PROJECT_DIR$/test-search/test-search-service/test-search-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-search-web/test-search-web.iml" filepath="$PROJECT_DIR$/test-search-web/test-search-web.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="test-search-web:war">
+    <output-path>$PROJECT_DIR$/test-search-web/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>test-search-web</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="test-search-web.war">
+      <element id="artifact" artifact-name="test-search-web:war exploded" />
+    </root>
+  </artifact>
+</component>

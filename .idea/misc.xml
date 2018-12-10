@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FUSUsageTrigger">
+    <session id="-1529630432">
+      <usages-collector id="statistics.spring.core.usages.trigger">
+        <counts>
+          <entry key="fixes.SpringFacetInspection.AddFacetFix" value="4" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/test-content/test-content-service" />
+    <file type="web" url="file://$PROJECT_DIR$/test-manager-web" />
+    <file type="web" url="file://$PROJECT_DIR$/test-manager/test-manager-provider" />
+    <file type="web" url="file://$PROJECT_DIR$/test-manager/test-manager-service" />
+    <file type="web" url="file://$PROJECT_DIR$/test-protal" />
+    <file type="web" url="file://$PROJECT_DIR$/test-protal-web" />
+    <file type="web" url="file://$PROJECT_DIR$/test-search-web" />
+    <file type="web" url="file://$PROJECT_DIR$/test-search/test-search-interface" />
+    <file type="web" url="file://$PROJECT_DIR$/test-search/test-search-service" />
+    <type id="Spring" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/test-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/test-common/pom.xml" />
+        <option value="$PROJECT_DIR$/test-manager/pom.xml" />
+        <option value="$PROJECT_DIR$/test-protal-web/pom.xml" />
+        <option value="$PROJECT_DIR$/test-content/pom.xml" />
+        <option value="$PROJECT_DIR$/test-search/pom.xml" />
+        <option value="$PROJECT_DIR$/test-search-web/pom.xml" />
+        <option value="$PROJECT_DIR$/test-protal/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/test-manager/test-manager-service/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

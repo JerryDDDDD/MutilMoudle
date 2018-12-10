@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="test-common" />
+        <module name="test-content-interface" />
+        <module name="test-content-service" />
+        <module name="test-manager-dao" />
+        <module name="test-manager-interface" />
+        <module name="test-manager-pojo" />
+        <module name="test-manager-provider" />
+        <module name="test-protal" />
+        <module name="test-protal-web" />
+        <module name="test-search-interface" />
+        <module name="test-search-service" />
+        <module name="test-search-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="test-common" target="1.7" />
+      <module name="test-content" target="1.7" />
+      <module name="test-content-interface" target="1.7" />
+      <module name="test-content-service" target="1.7" />
+      <module name="test-manager" target="1.7" />
+      <module name="test-manager-dao" target="1.7" />
+      <module name="test-manager-interface" target="1.7" />
+      <module name="test-manager-pojo" target="1.7" />
+      <module name="test-manager-provider" target="1.7" />
+      <module name="test-manager-service" target="1.7" />
+      <module name="test-manager-web" target="1.7" />
+      <module name="test-parent" target="1.7" />
+      <module name="test-protal" target="1.7" />
+      <module name="test-protal-web" target="1.7" />
+      <module name="test-search" target="1.7" />
+      <module name="test-search-interface" target="1.7" />
+      <module name="test-search-service" target="1.7" />
+      <module name="test-search-web" target="1.7" />
+      <module name="testsearch" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
