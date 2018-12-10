@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.layman.dao.TExceptionLogMapper">
+  <resultMap id="BaseResultMap" type="com.layman.pojo.TExceptionLog">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="ip" jdbcType="VARCHAR" property="ip" />
+    <result column="class_name" jdbcType="VARCHAR" property="className" />
+    <result column="method_name" jdbcType="VARCHAR" property="methodName" />
+    <result column="exception_type" jdbcType="VARCHAR" property="exceptionType" />
+    <result column="addtime" jdbcType="TIMESTAMP" property="addtime" />
+    <result column="is_view" jdbcType="TINYINT" property="isView" />
+    <result column="exception_msg" jdbcType="LONGVARCHAR" property="exceptionMsg" />
+  </resultMap>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from t_exception_log
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.layman.pojo.TExceptionLog">
+    insert into t_exception_log (id, ip, class_name, 
+      method_name, exception_type, addtime, 
+      is_view, exception_msg)
+    values (#{id,jdbcType=INTEGER}, #{ip,jdbcType=VARCHAR}, #{className,jdbcType=VARCHAR}, 
+      #{methodName,jdbcType=VARCHAR}, #{exceptionType,jdbcType=VARCHAR}, #{addtime,jdbcType=TIMESTAMP}, 
+      #{isView,jdbcType=TINYINT}, #{exceptionMsg,jdbcType=LONGVARCHAR})
+  </insert>
+  <update id="updateByPrimaryKey" parameterType="com.layman.pojo.TExceptionLog">
+    update t_exception_log
+    set ip = #{ip,jdbcType=VARCHAR},
+      class_name = #{className,jdbcType=VARCHAR},
+      method_name = #{methodName,jdbcType=VARCHAR},
+      exception_type = #{exceptionType,jdbcType=VARCHAR},
+      addtime = #{addtime,jdbcType=TIMESTAMP},
+      is_view = #{isView,jdbcType=TINYINT},
+      exception_msg = #{exceptionMsg,jdbcType=LONGVARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select id, ip, class_name, method_name, exception_type, addtime, is_view, exception_msg
+    from t_exception_log
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <select id="selectAll" resultMap="BaseResultMap">
+    select id, ip, class_name, method_name, exception_type, addtime, is_view, exception_msg
+    from t_exception_log
+  </select>
+</mapper>
