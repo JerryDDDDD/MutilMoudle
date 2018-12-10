@@ -1,2 +1,4 @@
 com\layman\search\exception\GlobalExceptionReslover.class
 com\layman\search\controller\SearchController.class
+com\layman\search\service\ExceptionLogService.class
+com\layman\search\service\impl\ExceptionLogServiceImpl.class

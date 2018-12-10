@@ -41,6 +41,7 @@ com\layman\pojo\TbOrderShipping.class
 com\layman\pojo\TbOrderShippingExample.class
 com\layman\pojo\TbOrderShippingExample$Criterion.class
 com\layman\pojo\TbItemParamItemExample$Criteria.class
+com\layman\pojo\TExceptionLog.class
 com\layman\pojo\TbItemParamItem.class
 com\layman\pojo\TbItemCatExample$GeneratedCriteria.class
 com\layman\pojo\TbContent.class

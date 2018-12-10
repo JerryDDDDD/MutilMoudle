@@ -1,4 +1,5 @@
 com\layman\utils\IDUtils.class
+com\layman\utils\IPUtils.class
 com\layman\pojo\TaotaoResult.class
 com\layman\utils\FastDFSClient.class
 com\layman\utils\JsonUtils.class

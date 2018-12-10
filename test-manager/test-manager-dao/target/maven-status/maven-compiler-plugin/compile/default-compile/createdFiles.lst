@@ -1,12 +1,13 @@
-com\layman\mapper\TbItemDescMapper.class
-com\layman\mapper\TbItemParamItemMapper.class
+com\layman\mapper\TExceptionLogMapper.class
 com\layman\mapper\TbContentMapper.class
-com\layman\mapper\TbItemCatMapper.class
 com\layman\mapper\TbUserMapper.class
 com\layman\mapper\TbContentCategoryMapper.class
 com\layman\mapper\TbItemMapper.class
 com\layman\mapper\TbItemParamMapper.class
-com\layman\mapper\TbOrderItemMapper.class
 com\layman\mapper\TbOrderMapper.class
 com\layman\mapper\TbOrderShippingMapper.class
 com\layman\mapper\TestMapper.class
+com\layman\mapper\TbItemDescMapper.class
+com\layman\mapper\TbItemParamItemMapper.class
+com\layman\mapper\TbItemCatMapper.class
+com\layman\mapper\TbOrderItemMapper.class
